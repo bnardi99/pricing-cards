@@ -317,3 +317,9 @@ footer .signature {
     padding: 10px 60px;
   }
 }
+
+@media (max-width: 327px) {
+  footer p {
+    font-size: 12px;
+  }
+}
