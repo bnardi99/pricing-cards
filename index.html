@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cards</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand">BN</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://www.linkedin.com/in/bnardi99/"
+                  target="_blank"
+                  ><i class="bx bxl-linkedin" style="font-size: 30px"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://github.com/bnardi99"
+                  target="_blank"
+                  ><i class="bx bxl-github" style="font-size: 30px"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="https://brenda-nardi.netlify.app/"
+                  target="_blank"
+                  ><i class="bx bxs-share-alt" style="font-size: 30px"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container mt-5">
+        <h1>Pricing Cards</h1>
+        <h2>Style Guide</h2>
+        <h3>Palette:</h3>
+        <div class="container text-center mb-5">
+          <div class="row">
+            <div class="col" id="green">#00B493</div>
+            <div class="col" id="purple">#810CA8</div>
+            <div class="col" id="blue">#2192FF</div>
+            <div class="col" id="red">#ED2B2A</div>
+            <div class="col" id="grey">#F9F9F9</div>
+          </div>
+        </div>
+        <h3>Typography:</h3>
+        <p class="poppins">Poppins (Heading)</p>
+        <p class="open-sans">Open Sans (Body)</p>
+        <h3 class="mt-4">Icon Library:</h3>
+        <a
+          href="https://boxicons.com/usage"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><img
+            src="images/boxicon-logo.png"
+            alt="Boxicons logo"
+            style="width: 180px; margin-top: 10px"
+        /></a>
+        <hr style="margin: 50px auto; border: 0.5px solid #b5b5b5" />
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100 free-plan">
+              <div>
+                <i class="bx bxs-gift free-icon"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Free Plan</h5>
+                <p class="card-text">
+                  Great for small businesses with basic design needs.
+                </p>
+                <h5 class="card-price">
+                  $0<span class="card-plan">/ month</span>
+                </h5>
+                <p class="card-features">What's included:</p>
+                <div class="list-group">
+                  <div class="list-group-item">
+                    <span class="check-icon-green">
+                      <i class="bx bxs-check-circle"></i
+                    ></span>
+                    Unlimited requests
+                  </div>
+                  <div class="list-group-item">
+                    <span class="check-icon-green">
+                      <i class="bx bxs-check-circle"></i
+                    ></span>
+                    Unlimited revisions
+                  </div>
+                  <div class="list-group-item">
+                    <span class="check-icon-green">
+                      <i class="bx bxs-check-circle"></i
+                    ></span>
+                    Free stock photos
+                  </div>
+                  <div class="list-group-item">
+                    <span class="check-icon-green">
+                      <i class="bx bxs-check-circle"></i
+                    ></span>
+                    One brand profile
+                  </div>
+                  <div class="list-group-item">
+                    <span class="check-icon-red">
+                      <i class="bx bxs-x-circle"></i
+                    ></span>
+                    Presentation deck design
+                  </div>
+                  <div class="list-group-item">
+                    <span class="check-icon-red">
+                      <i class="bx bxs-x-circle"></i
+                    ></span>
+                    Unlimited team members
+                  </div>
+                  <div class="list-group-item">
+                    <span class="check-icon-red">
+                      <i class="bx bxs-x-circle"></i
+                    ></span>
+                    Native source files included
+                  </div>
+                </div>
+                <div class="cta-button text-center mt-5 mb-3">
+                  <a href="#" class="cta-button-green">Select Plan</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 pro-plan">
+              <div>
+                <i class="bx bxs-rocket pro-icon"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Pro Plan</h5>
+                <p class="card-text">
+                  Great for businesses with interface design needs.
+                </p>
+                <h5 class="card-price">
+                  $29<span class="card-plan">/ month</span>
+                </h5>
+                <p class="card-features">What's included:</p>
+                <div class="list-group">
+                  <div class="list-group-item">
+                    <span class="check-icon-green">
+                      <i class="bx bxs-check-circle"></i
+                    ></span>
+                    All the Free Plan features
+                  </div>
+                  <div class="list-group-item">
+                    <span class="check-icon-green">
+                      <i class="bx bxs-check-circle"></i
+                    ></span>
+                    Real-time collaboration
+                  </div>
+                  <div class="list-group-item">
+                    <span class="check-icon-green">
+                      <i class="bx bxs-check-circle"></i
+                    ></span>
+                    Website & app design
+                  </div>
+                  <div class="list-group-item">
+                    <span class="check-icon-green">
+                      <i class="bx bxs-check-circle"></i
+                    ></span>
+                    Logo design
+                  </div>
+                  <div class="list-group-item">
+                    <span class="check-icon-green">
+                      <i class="bx bxs-check-circle"></i
+                    ></span>
+                    Presentation deck design
+                  </div>
+                  <div class="list-group-item">
+                    <span class="check-icon-green">
+                      <i class="bx bxs-check-circle"></i
+                    ></span>
+                    Unlimited team members
+                  </div>
+                  <div class="list-group-item">
+                    <span class="check-icon-green">
+                      <i class="bx bxs-check-circle"></i
+                    ></span>
+                    Native source files included
+                  </div>
+                </div>
+                <div class="cta-button text-center mt-5 mb-3">
+                  <a href="#" class="cta-button-purple">Select Plan</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 business-plan">
+              <div>
+                <i class="bx bxs-business business-icon"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Business Plan</h5>
+                <p class="card-text">
+                  Great for businesses looking for a custom plan.
+                </p>
+                <h5 class="card-price">
+                  $69<span class="card-plan">/ month</span>
+                </h5>
+                <p class="card-features">What's included:</p>
+                <div class="list-group">
+                  <div class="list-group-item">
+                    <span class="check-icon-green">
+                      <i class="bx bxs-check-circle"></i
+                    ></span>
+                    All the Pro Plan features
+                  </div>
+                  <div class="list-group-item">
+                    <span class="check-icon-green">
+                      <i class="bx bxs-check-circle"></i
+                    ></span>
+                    Concurrent requests
+                  </div>
+                  <div class="list-group-item">
+                    <span class="check-icon-green">
+                      <i class="bx bxs-check-circle"></i
+                    ></span>
+                    Website development
+                  </div>
+                  <div class="list-group-item">
+                    <span class="check-icon-green">
+                      <i class="bx bxs-check-circle"></i
+                    ></span>
+                    Accelerated delivery
+                  </div>
+                  <div class="list-group-item">
+                    <span class="check-icon-green">
+                      <i class="bx bxs-check-circle"></i
+                    ></span>
+                    Phone support
+                  </div>
+                  <div class="list-group-item">
+                    <span class="check-icon-green">
+                      <i class="bx bxs-check-circle"></i
+                    ></span>
+                    Live chat support
+                  </div>
+                  <div class="list-group-item">
+                    <span class="check-icon-green">
+                      <i class="bx bxs-check-circle"></i
+                    ></span>
+                    Free consultation
+                  </div>
+                </div>
+                <div class="cta-button text-center mt-5 mb-3">
+                  <a href="#" class="cta-button-blue">Select Plan</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="bg-dark mt-5 p-2 text-white text-center">
+      <a href="https://github.com/bnardi99/pricing-cards" target="_blank">
+        <p class="mt-3">
+          <span class="signature">© Brenda Nardi |</span> Open source on GitHub
+        </p>
+      </a>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

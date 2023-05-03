@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+:root {
+  --color-green: #00b493;
+  --color-purple: #810ca8;
+  --color-blue: #2192ff;
+  --color-red: #ed2b2a;
+  --card-bg: #f9f9f9;
+}
+
+/* Preset Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 42px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+/* Navbar */
+
+.navbar-brand {
+  color: #d3d3d4;
+  margin-bottom: 0;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Style Guide Section */
+
+#green {
+  margin-right: 10px;
+  font-weight: 700;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: var(--color-green);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+#purple {
+  margin-right: 10px;
+  font-weight: 700;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: var(--color-purple);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+#blue {
+  margin-right: 10px;
+  font-weight: 700;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: var(--color-blue);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+#red {
+  margin-right: 10px;
+  font-weight: 700;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: var(--color-red);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+#grey {
+  margin-right: 10px;
+  font-weight: 700;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: var(--card-bg);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.poppins {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+
+.open-sans {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Card & Content */
+
+.free-plan {
+  border: 1px solid #ededed;
+  border-radius: 10px;
+  border-top: 10px solid var(--color-green);
+  background-color: #f9f9f9;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.pro-plan {
+  border: 1px solid #ededed;
+  border-radius: 10px;
+  border-top: 10px solid var(--color-purple);
+  background-color: #f9f9f9;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.business-plan {
+  border: 1px solid #ededed;
+  border-radius: 10px;
+  border-top: 10px solid var(--color-blue);
+  background-color: #f9f9f9;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.card-title,
+.card-price {
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.card-text {
+  color: #6b728e;
+  font-size: 14px;
+}
+
+.card-price {
+  font-size: 45px;
+}
+
+.card-plan {
+  color: #6b728e;
+  font-size: 14px;
+}
+
+.card-features {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.list-group-item {
+  color: #6b728e;
+  font-size: 16px;
+  border: none;
+  background-color: transparent;
+}
+
+/* Card Button */
+
+.cta-button-green {
+  color: white;
+  font-weight: 600;
+  padding: 10px 80px;
+  border: none;
+  border-radius: 3px;
+  background-color: var(--color-green);
+}
+
+.cta-button-purple {
+  color: white;
+  font-weight: 600;
+  padding: 10px 80px;
+  border: none;
+  border-radius: 3px;
+  background-color: var(--color-purple);
+}
+
+.cta-button-blue {
+  color: white;
+  font-weight: 600;
+  padding: 10px 80px;
+  border: none;
+  border-radius: 3px;
+  background-color: var(--color-blue);
+}
+
+.cta-button a {
+  text-decoration: none;
+}
+
+.cta-button-green:hover {
+  transition: all ease-in-out 300ms;
+  background-color: #00997d;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.cta-button-purple:hover {
+  transition: all ease-in-out 300ms;
+  background-color: #6e0a8f;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.cta-button-blue:hover {
+  transition: all ease-in-out 300ms;
+  background-color: #007ef5;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+/* Card Icons */
+
+.free-icon {
+  color: white;
+  padding: 10px;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-left: 15px;
+  border-radius: 5px;
+  background-color: var(--color-green);
+}
+
+.pro-icon {
+  color: white;
+  padding: 10px;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-left: 15px;
+  border-radius: 5px;
+  background-color: var(--color-purple);
+}
+
+.business-icon {
+  color: white;
+  padding: 10px;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-left: 15px;
+  border-radius: 5px;
+  background-color: var(--color-blue);
+}
+
+/* Card Check Icons */
+
+.check-icon-green {
+  color: var(--color-green);
+  font-size: 18px;
+}
+
+.check-icon-red {
+  color: var(--color-red);
+  font-size: 18px;
+}
+
+/* Footer */
+
+footer a {
+  color: var(--color-blue);
+  text-decoration: none;
+}
+
+footer .signature {
+  color: #d3d3d4;
+}
+
+/* Mobile Responsiveness */
+@media (min-width: 779px) and (max-width: 991px) {
+  .cta-button-green,
+  .cta-button-purple,
+  .cta-button-blue {
+    padding: 10px 50px;
+  }
+
+  .list-group-item {
+    font-size: 13px;
+  }
+
+  .container {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 280px) {
+  .cta-button-green,
+  .cta-button-purple,
+  .cta-button-blue {
+    padding: 10px 60px;
+  }
+}
